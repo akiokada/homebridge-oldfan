@@ -1,0 +1,27 @@
+{
+  "name": "homebridge-oldfan",
+  "version": "0.0.1",
+  "description": "homebridge-oldfan",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "fan",
+	"3-speed",
+    "raspberry-pi",
+    "homebridge"
+  ],
+  "engines": {
+    "node": ">=6.12.2",
+    "homebridge": ">=0.4.33"
+  },
+  "author": {
+    "name": "Aki Okada"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akiokada/homebridge-oldfan.git"
+  },
+  "dependencies": {
+    "rpi-gpio": "^0.9.1"
+  }
+}
